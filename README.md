@@ -17,6 +17,11 @@ If you want to set-up the dataset from scratch (or replicate this process for a 
         * Make sure in the command above that you replace the file path with the fully specified file path to your `plants.csv` file (e.g., `/Users/justin.lien/Downloads/plants.csv`)
     * In the SQLite prompt, test your new database using an example query, e.g., `SELECT COUNT(*) FROM plants;`
 
+## Set-up plots.py
 
-1. Navigate to repo
-2. 
+1. Open a new terminal window. You should be in the `cc-plants` working directory (something like `/Users/{first}.{last}/Desktop/GitHub/cc-plants`). Confirm this by running the command `pwd` in terminal. If you are not in the `cc-plants` directory, you will want to use the `cd` command to change your directory (e.g., `cd /Users/{first}.{last}/Desktop/GitHub/cc-plants`)
+2. Create a new virtual environment by running `python3 -m venv .venv`
+3. Run `source .venv/bin/activate` to activate the virtual environment
+4. Install all necessary requirements by running `pip3 install -r requirements.txt`
+5. Change your working directory to the `scripts` folder (`cd scripts`)
+6. Execute the script with `python3 plots.py`
