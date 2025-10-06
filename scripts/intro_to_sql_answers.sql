@@ -78,11 +78,6 @@ SELECT plant_name
 FROM plants 
 WHERE plant_name LIKE '%Palm%';
 
--- Find plants that need partial shade and moderate water
-SELECT * FROM plants 
-WHERE sunlight = 'Partial Shade' 
-    AND water_needs = 'Moderate';
-
 -- =========================================
 -- Lesson 7: Review and Challenge Exercises
 -- =========================================

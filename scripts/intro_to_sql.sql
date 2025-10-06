@@ -62,10 +62,6 @@ Microsoft SQL Server, and Oracle Database.
 
 -- Find all plants with "Palm" in their name
 
-
--- Find plants that need partial shade and moderate water
-
-
 -- =========================================
 -- Lesson 7: Review and Challenge Exercises
 -- =========================================
